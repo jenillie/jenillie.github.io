@@ -1,0 +1,18 @@
+
+
+div {
+	background-color: #FFC78E;
+	color: lightyellow ;
+	padding:  16px;
+	}
+div:hover{background-color:coral ;}
+	
+
+a:link{
+	color:orangered;}
+a:visited{
+	color: darkgray;}
+a:hover{
+	color: darksalmon;}
+a:active{
+	color: lightgreen;}
