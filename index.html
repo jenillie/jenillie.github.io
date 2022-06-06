@@ -1,15 +1,39 @@
+<!--Css特效說明：背景顏色按照區塊改變、觸碰連結、點選連結、按壓連結、字體顏色、字體大小、背景顏色-->
 
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>Emilie's CV</title>
-
+		<link rel ="stylesheet" href="mystyle.css">
 			<meta charset="UTF-8">
 			<meta name="keywords" content="CV">
 			<meta name="author" content="陳品儒 107401512 財金四">
 			<meta name="description" content="For final exam">
 	</head>
-	<body>
+
+	<body onload="alert('Visit Emilie of CV!')">
+	<div>
+		<h2>Welcome!</h2>
+	</div>
+
+
+	<div>
+		<h2>JavaScript in &lt;body&gt;</h2>
+		<button type="button" onclick="myFunction() ">Show the hidden 1</button>
+	
+		<h2>JavaScript in myscript.js</h2>
+		<button type="button" onclick="myFunction1()">Show the hidden 2</button>
+<hr color="lightgrey">
+<p>It Will Show Below:</p><h1><strong><p id="click">Suripse</p></strong></h1>
+	</div>
+	<script src="./myscript.js"></script>
+
+	<script>
+		function myFunction() {
+			document.getElementById("click").innerHTML="Hi Welcome!!!";
+		}
+	</script>
+
 		
 		<div>
 
@@ -17,6 +41,8 @@
 				<br><h1>Emilie Chen</h1>
 				<p>+ 886-972-856-776  |  <a href=" https://www.istockphoto.com/photos/funny-cat" target="_blank"><p>cjen@gmail.com</p></a></p>
 			</center>
+		</div>
+		<div>
 			<hr color="lightgrey">
 			<h2><strong>EDUCATION </strong></h2>
 			<hr color="lightgrey">
@@ -28,7 +54,8 @@
 			<li><p><strong>Financial Econometrics In-Class Project: </strong>Made stock volitivity predictions by utilizing R to analyze regression models and time series for financial decisions.</p></li>
 			<li><p><strong>Seminar on Asset Management Practice:</strong> Collaborated with KGI and awarded No.1 in the Personal Finance and ESG Sustainable Investment Competition</p></li>
 			</ul>
-
+</div>
+<div>
 			<hr color="lightgrey">
 			<h2><strong>WORKING EXPERIENCE </strong></h2>
 			<hr color="lightgrey">
@@ -48,7 +75,8 @@
 			<ul>
 			<li><p><strong>Communication Skills: </strong>Contacted foreign students, checked their arrival time and assisted with their stay in Taiwan. Accompanied three Indian students to attend orientation and complete necessary registration procedures in NCU.</p></li>
 			</ul>
-
+</div>
+<div>
 			<hr color="lightgrey">
 			<h2><strong>EXTRACURRICULAR EXPERIENCES</strong></h2>
 			<hr color="lightgrey">
@@ -67,8 +95,8 @@
 		<ul>
 		<li><p><strong>Leadership: </strong>Held a prom for 100 people and hosted a show by cooperating with 23 people. Planned an internship sharing activity and designed promoting posters to conduct promotional activities, attracted 150+ people attended.</p></li>
 		</ul>
-
-
+</div>
+<div>
 			<hr color="lightgrey">
 			<h2><strong>SKILLS & QUALIFICATION</strong><?
 			<hr color="lightgrey">
@@ -82,11 +110,11 @@
 				<li><a href=" https://www.istockphoto.com/photos/funny-cat" target="_blank"><p><b><strong>Istockphoto</strong></b></p></a></li>
 					
 			</ol>
-			<hr color="lightcoral">			
-		</div>
+				
+</div>		
 
-
-
+<div>
+	<hr color="lightcoral">		
 	<h2><strong>Interesting things about me</strong></h2>
 	<hr color="lightcoral">	
 		<table border="3">
@@ -126,8 +154,8 @@
 			</tbody>
 		</table>
 		
+		</div>
 	</body>
 </html>
 
 <!--參考來源: 網頁程式設計課程講義-->
-
